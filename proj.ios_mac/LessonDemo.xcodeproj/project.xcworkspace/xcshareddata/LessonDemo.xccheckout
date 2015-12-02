@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A288664F-8166-4785-B653-E6F7C9252BCD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LessonDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C14F8DC9172DACD88BDDEE995ADD04326B10BB7</key>
+		<string>git://github.com/cocos2d/cocos2d-console.git</string>
+		<key>852ED3691A47A99B0D19C820A500AE9772B2A44E</key>
+		<string>https://github.com/super626/cocos2d-x</string>
+		<key>A2CAE7CF161931EDE6CD173FFB761C57478E3DFA</key>
+		<string>https://github.com/super626/LessonDemo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>proj.ios_mac/LessonDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C14F8DC9172DACD88BDDEE995ADD04326B10BB7</key>
+		<string>../../../../cocos2d-console</string>
+		<key>852ED3691A47A99B0D19C820A500AE9772B2A44E</key>
+		<string>../../../..</string>
+		<key>A2CAE7CF161931EDE6CD173FFB761C57478E3DFA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/super626/LessonDemo</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A2CAE7CF161931EDE6CD173FFB761C57478E3DFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>852ED3691A47A99B0D19C820A500AE9772B2A44E</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C14F8DC9172DACD88BDDEE995ADD04326B10BB7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cocos2d-console</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A2CAE7CF161931EDE6CD173FFB761C57478E3DFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LessonDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

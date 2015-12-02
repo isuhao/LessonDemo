@@ -1,0 +1,25 @@
+// A "Material" file can contain one or more materials
+material UVAnimation
+{
+    technique normal
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = res/Material/uvanimation.vert
+                fragmentShader = res/Material/uvanimation.frag
+                // sampler:
+                //   responsible for setting the texture and its parameters
+                //   the Id of the sampler is the uniform name
+                sampler u_sampler0
+                {
+                    path = res/Material/Water01.jpg
+                    wrapS = REPEAT
+                    wrapT = REPEAT
+                }
+
+            }
+        }
+    }
+}

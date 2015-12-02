@@ -1,0 +1,35 @@
+// A "Material" file can contain one or more materials
+material FakeShadow
+{
+    technique normal
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = res/Material/simple_shadow.vert
+                fragmentShader = res/Material/simple_shadow.frag
+                u_radius = 20.0
+                u_target_pos = 0.0, 0.0, 0.0
+                // sampler:
+                //   responsible for setting the texture and its parameters
+                //   the Id of the sampler is the uniform name
+                sampler u_sampler0
+                {
+                    path = res/Material/plane.png
+                    wrapS = REPEAT
+                    wrapT = REPEAT
+                }
+
+                sampler u_sampler1
+                {
+                    path = res/Material/shadowCircle.png
+                    wrapS = CLAMP_TO_EDGE
+                    wrapT = CLAMP_TO_EDGE
+                    minFilter = LINEAR
+                    magFilter = LINEAR
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+material
+{
+    technique
+    {
+        pass
+        {
+            shader
+            {
+                vertexShader = res/Material/simple.vert
+                fragmentShader = res/Material/simple.frag
+                u_color2 = 1,1,0,1
+                sampler u_Texture0
+                {
+                    path = res/Sprite3D/boss.png
+                }
+            }
+        }
+    }
+}

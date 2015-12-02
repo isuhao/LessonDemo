@@ -1,0 +1,44 @@
+material
+{
+
+	// This is another technique. It "outlines" the model without skin
+	technique outline_noneskinned
+	{
+		// 1st pass:
+		// creates a yellow outline of only the hull 
+		pass outline
+		{
+			renderState
+			{
+				cullFace = true
+				cullFaceSide = FRONT
+				depthTest = true
+			}
+			shader
+			{
+				vertexShader = res/Material/OutLine.vert
+				fragmentShader = res/Material/OutLine.frag
+				// Uniforms
+				OutLineColor = 1,1,0
+				OutlineWidth = 0.02
+			}
+		}
+
+		// 2nd pass
+		// Renders the model "normally"
+		// When a 'renderState' is not present it will use the default renderState
+		pass normal
+		{
+			shader
+			{
+				vertexShader = res/Material/simple.vert
+				fragmentShader = res/Material/simple.frag
+                u_color2 = 1,1,1,1
+				sampler u_Texture0
+				{
+					path = res/Sprite3D/boss.png
+				}
+			}
+		}
+	}
+}

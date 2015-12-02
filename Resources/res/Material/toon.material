@@ -1,0 +1,20 @@
+// A "Material" file can contain one or more materials
+material BasicToon
+{
+    technique normal
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = res/Material/toon.vert
+                fragmentShader = res/Material/toon.frag
+
+                sampler u_sampler0
+                {
+                    path = res/Material/teapot.png
+                }
+            }
+        }
+    }
+}

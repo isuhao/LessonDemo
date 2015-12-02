@@ -1,0 +1,15 @@
+material
+{
+    technique
+    {
+        pass
+        {
+            shader
+            {
+                vertexShader = res/Material/water.vert
+                fragmentShader = res/Material/water.frag
+                u_lightdir = 0.0,1.0,0.8
+            }
+        }
+    }
+}

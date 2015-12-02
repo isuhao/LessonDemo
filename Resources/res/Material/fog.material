@@ -1,0 +1,23 @@
+material
+{
+    technique
+    {
+        pass
+        {
+            shader
+            {
+                vertexShader = res/Material/fog.vert
+                fragmentShader = res/Material/fog.frag
+                u_fogDensity = 0.004
+                u_fogStart = 100.0
+                u_fogEnd = 500.0
+                u_fogEquation = 2
+                u_fogColor = 1.0, 1.0, 0.0, 1.0
+                sampler u_Texture0
+                {
+                    path = res/Sprite3D/boss.png
+                }
+            }
+        }
+    }
+}
