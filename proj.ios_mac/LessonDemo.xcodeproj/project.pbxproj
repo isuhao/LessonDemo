@@ -26,6 +26,14 @@
 		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		3EDA303F1BEA399800E1F1DD /* MathLesson4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA303D1BEA399800E1F1DD /* MathLesson4.cpp */; };
 		3EDA30401BEA399800E1F1DD /* MathLesson4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA303D1BEA399800E1F1DD /* MathLesson4.cpp */; };
+		3EE9405A1C2451EF000ED727 /* CameraLesson3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE940581C2451EF000ED727 /* CameraLesson3.cpp */; };
+		3EE9405B1C2451EF000ED727 /* CameraLesson3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE940581C2451EF000ED727 /* CameraLesson3.cpp */; };
+		3EE940621C297A88000ED727 /* CameraLesson4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE940601C297A88000ED727 /* CameraLesson4.cpp */; };
+		3EE940631C297A88000ED727 /* CameraLesson4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE940601C297A88000ED727 /* CameraLesson4.cpp */; };
+		3EE940661C2C2E31000ED727 /* CameraLesson5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE940641C2C2E31000ED727 /* CameraLesson5.cpp */; };
+		3EE940671C2C2E31000ED727 /* CameraLesson5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE940641C2C2E31000ED727 /* CameraLesson5.cpp */; };
+		3EE9406D1C2D4AAC000ED727 /* CameraLesson6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE9406B1C2D4AAC000ED727 /* CameraLesson6.cpp */; };
+		3EE9406E1C2D4AAC000ED727 /* CameraLesson6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE9406B1C2D4AAC000ED727 /* CameraLesson6.cpp */; };
 		3EFB794F1BF880F7006F7219 /* MaterialLesson3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB794D1BF880F7006F7219 /* MaterialLesson3.cpp */; };
 		3EFB79501BF880F7006F7219 /* MaterialLesson3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB794D1BF880F7006F7219 /* MaterialLesson3.cpp */; };
 		3EFB79561BFB5CD7006F7219 /* MaterialLesson4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB79541BFB5CD7006F7219 /* MaterialLesson4.cpp */; };
@@ -152,6 +160,14 @@
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		3EDA303D1BEA399800E1F1DD /* MathLesson4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MathLesson4.cpp; path = Math/MathLesson4.cpp; sourceTree = "<group>"; };
 		3EDA303E1BEA399800E1F1DD /* MathLesson4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathLesson4.h; path = Math/MathLesson4.h; sourceTree = "<group>"; };
+		3EE940581C2451EF000ED727 /* CameraLesson3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CameraLesson3.cpp; path = Camera/CameraLesson3.cpp; sourceTree = "<group>"; };
+		3EE940591C2451EF000ED727 /* CameraLesson3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraLesson3.h; path = Camera/CameraLesson3.h; sourceTree = "<group>"; };
+		3EE940601C297A88000ED727 /* CameraLesson4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CameraLesson4.cpp; path = Camera/CameraLesson4.cpp; sourceTree = "<group>"; };
+		3EE940611C297A88000ED727 /* CameraLesson4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraLesson4.h; path = Camera/CameraLesson4.h; sourceTree = "<group>"; };
+		3EE940641C2C2E31000ED727 /* CameraLesson5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CameraLesson5.cpp; path = Camera/CameraLesson5.cpp; sourceTree = "<group>"; };
+		3EE940651C2C2E31000ED727 /* CameraLesson5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraLesson5.h; path = Camera/CameraLesson5.h; sourceTree = "<group>"; };
+		3EE9406B1C2D4AAC000ED727 /* CameraLesson6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CameraLesson6.cpp; path = Camera/CameraLesson6.cpp; sourceTree = "<group>"; };
+		3EE9406C1C2D4AAC000ED727 /* CameraLesson6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraLesson6.h; path = Camera/CameraLesson6.h; sourceTree = "<group>"; };
 		3EFB794D1BF880F7006F7219 /* MaterialLesson3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaterialLesson3.cpp; path = Material/MaterialLesson3.cpp; sourceTree = "<group>"; };
 		3EFB794E1BF880F7006F7219 /* MaterialLesson3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaterialLesson3.h; path = Material/MaterialLesson3.h; sourceTree = "<group>"; };
 		3EFB79541BFB5CD7006F7219 /* MaterialLesson4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaterialLesson4.cpp; path = Material/MaterialLesson4.cpp; sourceTree = "<group>"; };
@@ -367,6 +383,21 @@
 			name = Math;
 			sourceTree = "<group>";
 		};
+		3EE940571C2451E0000ED727 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				3EE9406B1C2D4AAC000ED727 /* CameraLesson6.cpp */,
+				3EE9406C1C2D4AAC000ED727 /* CameraLesson6.h */,
+				3EE940641C2C2E31000ED727 /* CameraLesson5.cpp */,
+				3EE940651C2C2E31000ED727 /* CameraLesson5.h */,
+				3EE940601C297A88000ED727 /* CameraLesson4.cpp */,
+				3EE940611C297A88000ED727 /* CameraLesson4.h */,
+				3EE940581C2451EF000ED727 /* CameraLesson3.cpp */,
+				3EE940591C2451EF000ED727 /* CameraLesson3.h */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
 		3EFB794C1BF880E5006F7219 /* Material */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +441,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3EE940571C2451E0000ED727 /* Camera */,
 				3EFB794C1BF880E5006F7219 /* Material */,
 				3E2A0ABC1BDA62EA0086B878 /* Math */,
 				3E2A0AA51BD5DB550086B878 /* Sprite3D */,
@@ -613,6 +645,7 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				3EFB797C1C01F974006F7219 /* MaterialLesson9.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				3EE940661C2C2E31000ED727 /* CameraLesson5.cpp in Sources */,
 				3EFB79781C01F974006F7219 /* MaterialLesson7.cpp in Sources */,
 				3E2A0AA81BD5DD900086B878 /* Sprite3DLesson2.cpp in Sources */,
 				3E2A0ABA1BD8805F0086B878 /* Sprite3DLesson6.cpp in Sources */,
@@ -620,10 +653,13 @@
 				3EFB79561BFB5CD7006F7219 /* MaterialLesson4.cpp in Sources */,
 				3EFB795A1BFB7450006F7219 /* MaterialLesson5.cpp in Sources */,
 				3EFB79761C01F974006F7219 /* MaterialLesson6.cpp in Sources */,
+				3EE9406D1C2D4AAC000ED727 /* CameraLesson6.cpp in Sources */,
 				3E2A0ABF1BDA63070086B878 /* MathLesson1.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				3EDA303F1BEA399800E1F1DD /* MathLesson4.cpp in Sources */,
 				3E2A0AAC1BD616840086B878 /* Sprite3DLesson4.cpp in Sources */,
+				3EE9405A1C2451EF000ED727 /* CameraLesson3.cpp in Sources */,
+				3EE940621C297A88000ED727 /* CameraLesson4.cpp in Sources */,
 				3EFB79801C01F974006F7219 /* MaterialLesson11.cpp in Sources */,
 				3EFB797A1C01F974006F7219 /* MaterialLesson8.cpp in Sources */,
 				3EFB797E1C01F974006F7219 /* MaterialLesson12.cpp in Sources */,
@@ -636,12 +672,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E2A0AB11BD643960086B878 /* Sprite3DLesson5.cpp in Sources */,
+				3EE940671C2C2E31000ED727 /* CameraLesson5.cpp in Sources */,
 				3EFB79771C01F974006F7219 /* MaterialLesson6.cpp in Sources */,
 				3EFB79811C01F974006F7219 /* MaterialLesson11.cpp in Sources */,
 				3EFB79791C01F974006F7219 /* MaterialLesson7.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				3EDA30401BEA399800E1F1DD /* MathLesson4.cpp in Sources */,
 				3E2A0ABB1BD8805F0086B878 /* Sprite3DLesson6.cpp in Sources */,
+				3EE940631C297A88000ED727 /* CameraLesson4.cpp in Sources */,
 				3EFB79501BF880F7006F7219 /* MaterialLesson3.cpp in Sources */,
 				3EFB797D1C01F974006F7219 /* MaterialLesson9.cpp in Sources */,
 				3EFB797B1C01F974006F7219 /* MaterialLesson8.cpp in Sources */,
@@ -653,6 +691,8 @@
 				3E2A0AA91BD5DD900086B878 /* Sprite3DLesson2.cpp in Sources */,
 				3E2A0AAD1BD616840086B878 /* Sprite3DLesson4.cpp in Sources */,
 				3EFB79831C01F974006F7219 /* MaterialLesson10.cpp in Sources */,
+				3EE9405B1C2451EF000ED727 /* CameraLesson3.cpp in Sources */,
+				3EE9406E1C2D4AAC000ED727 /* CameraLesson6.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

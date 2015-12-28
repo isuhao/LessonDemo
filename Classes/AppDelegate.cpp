@@ -15,6 +15,10 @@
 #include "Material/MaterialLesson10.h"
 #include "Material/MaterialLesson11.h"
 #include "Material/MaterialLesson12.h"
+#include "Camera/CameraLesson3.h"
+#include "Camera/CameraLesson4.h"
+#include "Camera/CameraLesson5.h"
+#include "Camera/CameraLesson6.h"
 
 USING_NS_CC;
 
@@ -90,7 +94,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
     // create a scene. it's an autorelease object
-    auto scene = MaterialLesson10::createScene();
+    auto scene = CameraLesson6::createScene();
 
     // run
     director->runWithScene(scene);
